@@ -38,3 +38,43 @@ header {
 }
 
 /*Segunda Parte cuerpo*/
+
+main {
+    width: 100%;
+}
+
+h1 {
+    color:darkgrey;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    color: grey;
+    margin: 10px 0;
+}
+
+.imagenes {
+    width: 98%;
+    height: 98%;
+}
+
+#comedores {
+    display: flex;
+    justify-content: center;
+}
+
+.cuadro {
+    border: 2px gainsboro solid;
+    box-shadow: 6px 6px 9px 0px rgba(0,0,0,0.48);
+    -webkit-box-shadow: 6px 6px 9px 0px rgba(0,0,0,0.48);
+    -moz-box-shadow: 6px 6px 9px 0px rgba(0,0,0,0.48);
+    margin: 0 3px;
+    padding: 0 70px;
+    margin-top: 16px;
+}
+
+summary {
+    text-align: center;
+}
+
