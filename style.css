@@ -78,3 +78,14 @@ summary {
     text-align: center;
 }
 
+#Escritorios {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+
+      
+
+
+
