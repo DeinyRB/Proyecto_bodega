@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Encabezado (primera parte fondo rojo)*/
+
+header {
+    background-color: red;
+    width: 100%;
+}
+
+#lista {
+    align-self: flex-end;
+    margin-right: 250px;
+}
+
+#lista ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+#lista ul a {
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+}
+
+#par {
+    display: flex;
+    justify-content: space-between; /*separacion automatica hacia los extremos*/
+}
+
+#img1 img {
+    width: 13%;
+}
+
+/*Segunda Parte cuerpo*/
